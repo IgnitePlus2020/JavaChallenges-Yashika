@@ -12,7 +12,7 @@ public class DupChars16 {
         for(int i = 0; i <str.length; i++) {  
             count = 1;  
             for(int j = i+1; j <str.length; j++) {  
-                if(in[i] == string[j] && in[i] != ' ') {  
+                if(in[i] == in[j] && in[i] != ' ') {  
                     count++;  
                     in[j] = '0';  
                 }  
